@@ -1,0 +1,87 @@
+body a {
+  text-decoration: none !important; }
+
+body hr {
+  margin: 0;
+  /* Remove top and bottom margins */ }
+
+body .index-header {
+  background-color: aliceblue; }
+  body .index-header .header-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto; }
+    body .index-header .header-container .left-side {
+      width: 150px; }
+      body .index-header .header-container .left-side a {
+        color: black; }
+    body .index-header .header-container .right-side {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body .index-header .header-container .right-side .logout {
+        width: 90px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: #0d6efd; }
+      body .index-header .header-container .right-side div:nth-child(1) {
+        background-color: #0d6efd; }
+      body .index-header .header-container .right-side div:nth-child(2) {
+        background-color: #5dc45d; }
+      body .index-header .header-container .right-side div {
+        width: 90px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px; }
+        body .index-header .header-container .right-side div a {
+          color: white; }
+    body .index-header .header-container .index-search {
+      display: flex; }
+      body .index-header .header-container .index-search .input {
+        width: 600px;
+        height: 42px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px; }
+      body .index-header .header-container .index-search .button {
+        width: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
+
+body .index-navigation {
+  padding: 10px;
+  background-color: #0d6efd; }
+  body .index-navigation .navigation-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 60px; }
+    body .index-navigation .navigation-container a {
+      margin-right: 20px;
+      color: white; }
+
+body .authentication-header {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+body .authentication-forms div {
+  margin-bottom: 15px;
+  width: 500px; }
+
+body .authentication-submit {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
